@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <section class="hero">
+            <div class="container d-flex flex-column justify-content-center align-items-center mt-5">
+                <div class="hero__top mb-2">
+                    <button class="btn btn__pokemon bg-primary text-light">Pokemon</button>
+                    <button class="btn btn__movies bg-warning text-light">Movies</button>
+                    <button class="btn btn__random bg-info text-light">Random</button>
+                    <button class="btn btn__clear bg-success text-light">Delete all</button>
+                </div>
+                <h2>Result: <span class="result"></span></h2>
+                
+                <ul class="list row list-unstyled d-flex justify-content-center w-100 col-12 mt-3 gap-3">
+                    <li class="text-center fs-5 text-danger">You can find movies,pokemon or both</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/movies.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
